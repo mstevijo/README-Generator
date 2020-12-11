@@ -9,6 +9,7 @@
   "author": "Stevi Jo Malinowski",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.0",
     "inquirer": "^6.3.1"
   }
 }
