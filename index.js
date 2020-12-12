@@ -87,7 +87,7 @@ const init = async () => {
 
         // ask user for answers to questions
         const answers = await promptUser();
-
+        
         // create markdown content from user answers
         const fileContent = generateMd(answers);
 

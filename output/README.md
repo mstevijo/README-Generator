@@ -1,9 +1,8 @@
-function generateMarkdown(data) {
-  return `
-# **${data.title}**
-${data.badge}
+
+# **blah**
+undefined
 ## Description 
-${data.description}
+blah
 ## Table of contents
 - [Description](#Description)
 - [Installation](#Installation)
@@ -14,21 +13,17 @@ ${data.description}
 - [Repository Link](#Repository)
 - [GitHub Info](#GitHub) 
 ## Installation
-        ${data.installation}
+        npm install
 ## Usage
-${data.usage}
+blah
 ## Licence
-${data.licence}
+undefined
 ## Contributors
-${data.contributing}
+undefined
 ## Test
-${data.test}
+undefined
 ## Repository
-- [Project Repo](${data.repo})
+- [Project Repo](undefined)
 ## GitHub
-- [GitHub Profile](${data.username})
-- <${data.email}>
-`;
-}
-
-module.exports = generateMarkdown;
+- [GitHub Profile](https://github.com/mstevijo)
+- <mstevijo@yahoo.com>
